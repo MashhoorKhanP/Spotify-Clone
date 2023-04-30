@@ -55,6 +55,16 @@ a{
     color: #fff;
 }
 
+@media(min-width:576) and (max-width:992){
+
+    .bi-person-circle{
+        position: relative;
+        margin-top: -68px;
+        margin-right: 120px;
+    }
+
+}
+
 .nav-link {
     font-size: 16px;
     font-weight: 600;
