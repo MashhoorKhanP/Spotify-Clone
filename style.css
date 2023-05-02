@@ -8,9 +8,7 @@ body{
 
 .spotifyheader-logo{
 
-    width: 134px;
-
-    
+    width: 134px;    
 }
 
 a{
@@ -55,16 +53,6 @@ a{
     color: #fff;
 }
 
-@media(min-width:576) and (max-width:992){
-
-    .bi-person-circle{
-        position: relative;
-        margin-top: -68px;
-        margin-right: 120px;
-    }
-
-}
-
 .nav-link {
     font-size: 16px;
     font-weight: 600;
@@ -100,8 +88,6 @@ a{
 
     width: 100%;
 }
-
-
 
 .main-text{
 
@@ -212,8 +198,6 @@ a{
    width:142px;
 }
 
-
-
 .itemtitle-text{
 
     font-weight: bold;
@@ -232,6 +216,164 @@ a{
     width:100%
 }
 
+.pickmain-div {
+
+    margin-top: 150px;
+    font-size: 40px;
+    letter-spacing: -1.6px;
+    
+}
+
+.pick-text{
+
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.picksub-text{
+
+
+    font-size: 16px;
+    font-weight: normal;
+    margin: 10px 0px;
+    letter-spacing: -1px;
+}
+
+.upi-img{
+
+    width:29px;
+    height:20px;
+}
+
+.pacttitle-text{
+
+    font-size: 24px;
+    font-weight: bold;
+   
+}
+
+.period-text{
+
+    
+    margin-bottom: 0;
+    
+}
+
+.month-text{
+
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.terms-div{
+
+
+    margin-top: 65px;
+}
+
+.link-text{
+
+    text-decoration: underline;
+    color:#000;
+    font-size: 12px;
+}
+
+.terms-text{
+
+    font-size:12px;
+}
+
+
+.socialimagemain-div{
+
+    display: flex;
+    column-gap: 50px;
+    margin: 120px 15px 15px;
+}
+
+.socialicon-img{
+
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+    
+}
+
+.footer-title{
+
+    color: #919496;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.footerlink-text{
+
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2.5;
+    color: #fff;
+    text-decoration: none;
+}
+
+.privacy-list{
+
+    margin: 0 45px 0 0;
+    padding-left: 0px;
+
+}
+
+.privacylink-text{
+
+    font-size: 12px;
+    color: #919496;
+    font-weight: 400;
+}
+
+ul{
+
+    list-style: none;
+    
+}
+
+.country-text, .copyright-text{
+
+    font-size: 12px;
+    color: #919496;
+    font-weight: 400;
+
+}
+
+.bi-globe-asia-australia, .bi-c-circle{
+
+    color: #919496;
+    font-size:12px;
+    margin: 1px 4px 0 0;
+}
+
+.privacylink-text:hover, .country-text:hover, .footerlink-text:hover{
+
+    color:#1ccc5b;
+    
+}
+
+/*media query:::::::::::*/
+
+
+@media(min-width:576) and (max-width:992){
+
+    .bi-person-circle{
+        position: relative;
+        margin-top: -68px;
+        margin-right: 120px;
+    }
+
+}
 
 @media(max-width:1200px){
 
@@ -308,56 +450,13 @@ a{
 
 }
 
-.pickmain-div {
+@media (max-width:992px){
 
-    margin-top: 150px;
-    font-size: 40px;
-    letter-spacing: -1.6px;
-    
+    .vertical-line{
+
+        opacity: 0;
+    }
 }
-
-.pick-text{
-
-    font-size: 40px;
-    font-weight: 600;
-}
-
-.picksub-text{
-
-
-    font-size: 16px;
-    font-weight: normal;
-    margin: 10px 0px;
-    letter-spacing: -1px;
-}
-
-.upi-img{
-
-    width:29px;
-    height:20px;
-}
-
-.pacttitle-text{
-
-    font-size: 24px;
-    font-weight: bold;
-   
-}
-
-.period-text{
-
-    
-    margin-bottom: 0;
-    
-}
-
-.month-text{
-
-    display: block;
-    font-size: 16px;
-    font-weight: 400;
-}
-
 
 
 @media(max-width:1200px){
@@ -382,40 +481,6 @@ a{
     }
 }
 
-.terms-div{
-
-
-    margin-top: 65px;
-}
-
-.link-text{
-
-    text-decoration: underline;
-    color:#000;
-    font-size: 12px;
-}
-
-.terms-text{
-
-    font-size:12px;
-}
-
-
-.socialimagemain-div{
-
-    display: flex;
-    column-gap: 50px;
-    margin: 120px 15px 15px;
-}
-
-.socialicon-img{
-
-    width: 24px;
-    height: 24px;
-    fill: #fff;
-    
-}
-
 @media(min-width:992px){
 
     .socialimagemain-div{
@@ -430,69 +495,5 @@ a{
 
         margin: 20px 0;
    } 
-    
-}
-
-.footer-title{
-
-    color: #919496;
-    font-size: 12px;
-    font-weight: 900;
-    line-height: 1.4;
-    letter-spacing: .08em;
-    text-transform: uppercase;
-    margin-top: 20px;
-}
-
-.footerlink-text{
-
-    display: inline-block;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 2.5;
-    color: #fff;
-    text-decoration: none;
-}
-
-.privacy-list{
-
-    margin: 0 45px 0 0;
-    padding-left: 0px;
-
-}
-
-
-
-.privacylink-text{
-
-    font-size: 12px;
-    color: #919496;
-    font-weight: 400;
-}
-
-ul{
-
-    list-style: none;
-    
-}
-
-.country-text, .copyright-text{
-
-    font-size: 12px;
-    color: #919496;
-    font-weight: 400;
-
-}
-
-.bi-globe-asia-australia, .bi-c-circle{
-
-    color: #919496;
-    font-size:12px;
-    margin: 1px 4px 0 0;
-}
-
-.privacylink-text:hover, .country-text:hover, .footerlink-text:hover{
-
-    color:#1ccc5b;
     
 }
