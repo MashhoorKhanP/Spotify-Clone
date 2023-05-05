@@ -363,6 +363,14 @@ ul{
 
 /*media query:::::::::::*/
 
+@media (min-width:100px) and (max-width:330px){
+
+    .navbar{
+
+        width: 100%;
+    }
+
+}
 
 @media(min-width:576) and (max-width:992){
 
